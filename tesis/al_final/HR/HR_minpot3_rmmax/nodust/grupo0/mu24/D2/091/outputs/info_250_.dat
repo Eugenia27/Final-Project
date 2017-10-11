@@ -1,0 +1,56 @@
+ sigma,tsto,threshold_mc=   2.5000000       6000000.0      6.60000000E+08
+ rad_mc(pc), mass_mc(M_o)=   14.000000       1000000.0    
+ Gas mass=  7.34514217E+10  7.34515036E+10
+ Young st mass=  1.97660688E+08  1.97660704E+08
+ Free st mass=  2.05947693E+12  2.07610839E+12
+ MC mass=  1.43052308E+10  0.19475771    
+ Total mass=  2.16119063E+12  -37.540596    
+ Gas fraction=  3.39865535E-02
+ Dust mass=  2.68451552E+08
+ a_flu=   150.00000    
+ dust loss=  0.24455477        15623144
+ Galaxy Input  ../Input/D2_HR_minpot3_rmmax_091_sub0_L500kpc.dat
+ Number of cells per side         250
+ Rgal=   249.97000      Kpc
+ Intrinsic bolometric Luminosity  5.71688440E+15
+ Observed  bolometric Luminosity  5.79005132E+15
+ Energy balance =   98.736336     %
+  Angle          energy absorbed
+   0.0000000      6.13852077E+13
+  0.26183301      6.22925405E+13
+  0.52366602      6.34652637E+13
+  0.78549999      7.21146987E+13
+   1.0473300      6.35398762E+13
+   1.3091700      6.56654446E+13
+   1.5710000      6.94181891E+13
+  Angle average  6.62848133E+13
+ % of total energy absorbed by cirrus
+   1.1594568     %
+ energy emitted
+  7.89372123E+13
+ nearest neighbour factor
+  0.40000001    
+ Energy balance
+   83.982452     %
+ Energy going into MCs  4.48075449E+14
+ Energy coming out of MCs  5.08103020E+14
+ Energy balance of MCs
+   88.185944    
+ Maximum n_H, cell   2.3028286             155         152         136
+ optical depth through cell at 1 micron, sig_1   1.7788472      1.25183024E-22
+ percentage of starlight in max cell in B band  9.85220424E-04 %
+ CPU time taken   12323.474     s
+ Of which:   41.440701     is taken initialising the system
+             24.520271     is taken calculating the MC emission
+             10606.070     is taken calculating the radiation field
+             37.021103     is taken calculating the nearest neighbours
+             80.409531     is taken calculating the emission
+             6.0005264     is taken calculating the stellar component
+             290.81583     is taken calculating the SED
+ Leaving     1237.1953     for other processes
+ Time to calculate low resolution intrinsic SED    0.0000000    
+ Time to calculate high resolution intrinsic SED   0.0000000    
+ Polar tau cirrus at 1 and 0.44 micron =   0.0000000       0.0000000    
+ distance traveled  1.53957967E+24 cm   249.50000     grid squares
+ Tau cirrus as if it were homogeneous  3.36959166E-03  9.81069356E-03
+ -----------------

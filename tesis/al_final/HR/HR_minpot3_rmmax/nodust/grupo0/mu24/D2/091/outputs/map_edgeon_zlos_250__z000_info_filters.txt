@@ -1,0 +1,45 @@
+ # Input global sed from file: /pico/scratch/userexternal/cragonef/mferraro/g3d/Output/D2_HR_minpot3_rmmax_091_
+ # Input map sed from file:    /pico/scratch/userexternal/cragonef/mferraro/g3d/Output/D2_HR_minpot3_rmmax_091_
+ # The following filters have been used:
+# Filter 1 is: 102 a.k.a.    K-ESO (via Mathias Schultheis).                                     with  335 data points
+# Filter 2 is: 115 a.k.a.    SDSS Camera u Response Function, airmass = 1.3 (June 2001)          with   47 data points
+# Filter 3 is: 116 a.k.a.    SDSS Camera g Response Function, airmass = 1.3 (June 2001)          with   89 data points
+# Filter 4 is: 117 a.k.a.    SDSS Camera r Response Function, airmass = 1.3 (June 2001)          with   75 data points
+# Filter 5 is: 118 a.k.a.    SDSS Camera i Response Function, airmass = 1.3 (June 2001)          with   89 data points
+# Filter 6 is: 119 a.k.a.    SDSS Camera z Response Function, airmass = 1.3 (June 2001)          with  141 data points
+# Filter 7 is: 122 a.k.a.    2MASS Ks filter (total response w/atm)                              with   78 data points
+# Filter 8 is: 125 a.k.a.    V Johnson-Bessel visual cen 5500 FWHM 1090 peak 5200                with  521 data points
+# Filter 9 is: 126 a.k.a.    R Johnson-Bessel red cen 6600 FWHM 1420 peak 6000                   with 1041 data points
+# Filter * is: 127 a.k.a.    I Johnson-Bessel infrared cen 8000 FWHM 1560 peak 8050              with  431 data points
+# Filter * is: 131 a.k.a.    GALEX-NUV http://svo2.cab.inta-csic.es/theory/fps/                  with 1321 data points
+# Filter * is: 132 a.k.a.    IRAC 3.6m http://irsa.ipac.caltech.edu/data/SPITZER/docs/irac       with  391 data points
+# Filter * is: 133 a.k.a.    IRAC 4.5m http://irsa.ipac.caltech.edu/data/SPITZER/docs/irac       with  401 data points
+# Filter * is: 134 a.k.a.    IRAC 5.8m http://irsa.ipac.caltech.edu/data/SPITZER/docs/irac       with  311 data points
+# Filter * is: 135 a.k.a.    IRAC 8.0m http://irsa.ipac.caltech.edu/data/SPITZER/docs/irac       with  350 data points
+# Filter * is: 136 a.k.a.    MIPS 24m http://irsa.ipac.caltech.edu/data/SPITZER/docs/mips        with  128 data points
+# Filter * is: 137 a.k.a.    MIPS 70m http://irsa.ipac.caltech.edu/data/SPITZER/docs/mips        with  110 data points
+# Filter * is: 138 a.k.a.    MIPS 160m http://irsa.ipac.caltech.edu/data/SPITZER/docs/mips       with  400 data points
+# Filter * is: 139 a.k.a.    Herschel PACS 70m                                                   with  367 data points
+# Filter * is: 140 a.k.a.    Herschel PACS 100m                                                  with  296 data points
+# Filter * is: 141 a.k.a.    Herschel PACS 160m                                                  with  215 data points
+# Filter * is: 142 a.k.a.    Herschel SPIRE 250m                                                 with  207 data points
+# Filter * is: 143 a.k.a.    Herschel SPIRE 350m                                                 with  132 data points
+# Filter * is: 144 a.k.a.    Herschel SPIRE 500m                                                 with  129 data points
+# redshift:              0.0000
+# redshift of observer:  0.0000
+# if z=0 we assume the distance to the Andromeda
+# luminosity distance to object:    7.4000E-01 Mpc
+# conversion factor to flux_lambda (erg/s/cm^2/A):        1.9179E-19
+# conversion factor to flux_nu (erg/s/cm^2/Hz):           6.3976E-38
+# distance correction factor:                             1.0000E+00
+# solid angle assuming object face-on (sr):               4.5654E-01
+# solid angle assuming object face-on (arcsec^2):         1.9426E+10
+# solid angle of a single cell (sr):                      7.3046E-06
+# solid angle of a single cell (arcsec^2):                3.1081E+05
+# for a different inclination the flux should be multiplied by cos(i)
+# conversion factor from erg/s/cm^2/Hz to Jy:             1.0000E+23
+# Flux_blackbody(Jy) is for Spitzer-MIPS.
+# Flux_AB(Jy) is computed assuming S_nu=const.
+# Flux_STMAG(erg/s/cm^2/A) is computed assuming S_lambda=const.
+# Number of cells (pixels) per side in images:      250
+# Cell width (kpc):                                 2.000

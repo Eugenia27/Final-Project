@@ -1,0 +1,116 @@
+% Chapter 1
+
+\chapter{Chapter Title Here} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+% Define some commands to keep the formatting separated from the content 
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+\section{Welcome and Thank You}
+
+%----------------------------------------------------------------------------------------
+
+\section{Learning \LaTeX{}}
+
+\subsection{A (not so short) Introduction to \LaTeX{}}
+
+\subsection{A Short Math Guide for \LaTeX{}}
+\enquote{Additional Documentation} section towards the bottom of the page.
+
+\subsection{Common \LaTeX{} Math Symbols}
+
+\url{http://www.sunilpatel.co.uk/latex-type/latex-math-symbols/}
+
+\subsection{\LaTeX{} on a Mac}
+
+%----------------------------------------------------------------------------------------
+
+\section{Getting Started with this Template}
+
+\subsection{About this Template}
+
+%----------------------------------------------------------------------------------------
+
+\section{What this Template Includes}
+
+\subsection{Folders}
+
+\keyword{Appendices} -- 
+
+\keyword{Chapters} -- this 
+\begin{itemize}
+\item Chapter 1: Introduction to the thesis topic
+\item Chapter 2: Background information and theory
+\item Chapter 3: (Laboratory) experimental setup
+\item Chapter 4: Details of experiment 1
+\item Chapter 5: Details of experiment 2
+\item Chapter 6: Discussion of the experimental results
+\item Chapter 7: Conclusion and future directions
+\end{itemize}
+This chapter layout is specialised for the experimental sciences, your discipline may be different.
+
+\keyword{Figures} -- 
+
+\subsection{Files}
+
+\keyword{example.bib} -- this 
+
+\keyword{MastersDoctoralThesis.cls} --
+
+\keyword{main.pdf} --
+
+\keyword{main.tex} -- 
+
+%---------------------------------------------------------------------------------------
+\subsection{Tables}
+
+\begin{table}
+\caption{The effects of treatments X and Y on the four groups studied.}
+\label{tab:treatments}
+\centering
+\begin{tabular}{l l l}
+\toprule
+\tabhead{Groups} & \tabhead{Treatment X} & \tabhead{Treatment Y} \\
+\midrule
+1 & 0.2 & 0.8\\
+2 & 0.17 & 0.7\\
+3 & 0.24 & 0.75\\
+4 & 0.68 & 0.3\\
+\bottomrule\\
+\end{tabular}
+\end{table}
+
+
+\subsection{Figures}
+
+\begin{figure}[th]
+\centering
+%\includegraphics{Figures/Electron}
+\decoRule
+\caption[An Electron]{An electron (artist's impression).}
+\label{fig:Electron}
+\end{figure}
+
+\subsection{Typesetting mathematics}
+This will produce Einstein's famous energy-matter equivalence equation:
+\begin{equation}
+E = mc^{2}
+\label{eqn:Einstein}
+\end{equation}
+
+All equations you write (which are not in the middle of paragraph text) are automatically given equation numbers by \LaTeX{}. If you don't want a particular equation numbered, use the unnumbered form:
+\begin{verbatim}
+\[ a^{2}=4 \]
+\end{verbatim}
+
+%----------------------------------------------------------------------------------------
+
+
+
